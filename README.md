@@ -94,7 +94,7 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 #### Clone the template repository
 
 ```shell
-git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+git clone --depth 1 https://github.com/joaostack/AstroNvim ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 nvim
 ```
@@ -111,7 +111,7 @@ Rename-Item -Path $env:LOCALAPPDATA\nvim-data -NewName $env:LOCALAPPDATA\nvim-da
 #### Clone the repository
 
 ```pwsh
-git clone --depth 1 https://github.com/AstroNvim/template $env:LOCALAPPDATA\nvim
+git clone --depth 1 https://github.com/joaostack/AstroNvim $env:LOCALAPPDATA\nvim
 Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 nvim
 ```
